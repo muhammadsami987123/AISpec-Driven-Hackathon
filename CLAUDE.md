@@ -208,3 +208,75 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+- /sp.clarify - Physical AI & Humanoid Robotics Book Project
+
+## Purpose
+This clarification document resolves ambiguities, defines edge cases, and provides implementation guidance for the Physical AI & Humanoid Robotics book project. Use this when making architectural decisions or handling unclear requirements.
+
+---
+
+## 1. BOOK CONTENT & STRUCTURE CLARIFICATIONS
+
+### Q: Should the book include hands-on lab exercises that require actual hardware?
+**A:** No. The book is designed for **simulation-fi[...Truncated text #1 +574 lines...]**A:** Functionality first. A working MVP beats a polished incomplete project.
+
+---
+
+## Revision History
+- **v1.0** (Nov 27, 2025): Initial clarification document based on `/sp.specify`
+
+---
+
+## How to Use This Document
+1. **Before starting:** Read all sections for context
+2. **During development:** Reference specific sections when facing decisions
+3. **During code review:** Use success metrics to validate implementation
+4. **After launch:** Document your own clarifications and update this file
+- /sp.clarify - Physical AI & Humanoid Robotics Book Project
+
+## Purpose
+This clarification document resolves ambiguities, defines edge cases, and provides implementation guidance for the Physical AI & Humanoid Robotics book project. Use this when making architectural decisions or handling unclear requirements.
+
+---
+
+## 1. BOOK CONTENT & STRUCTURE CLARIFICATIONS
+
+### Q: Should the book include hands-on lab exercises that require actual hardware?
+**A:** No. The book is designed for **simulation-fi[...Truncated text #1 +574 lines...]**A:** Functionality first. A working MVP beats a polished incomplete project.
+
+---
+
+## Revision History
+- **v1.0** (Nov 27, 2025): Initial clarification document based on `/sp.specify`
+
+---
+
+## How to Use This Document
+1. **Before starting:** Read all sections for context
+2. **During development:** Reference specific sections when facing decisions
+3. **During code review:** Use success metrics to validate implementation
+4. **After launch:** Document your own clarifications and update this file
+- /sp.clarify - Physical AI & Humanoid Robotics Book Project
+
+## Purpose
+This clarification document resolves ambiguities, defines edge cases, and provides implementation guidance for the Physical AI & Humanoid Robotics book project. Use this when making architectural decisions or handling unclear requirements.
+
+---
+
+## 1. BOOK CONTENT & STRUCTURE CLARIFICATIONS
+
+### Q: Should the book include hands-on lab exercises that require actual hardware?
+**A:** No. The book is designed for **simulation-fi[...Truncated text #1 +574 lines...]**A:** Functionality first. A working MVP beats a polished incomplete project.
+
+---
+
+## Revision History
+- **v1.0** (Nov 27, 2025): Initial clarification document based on `/sp.specify`
+
+---
+
+## How to Use This Document
+1. **Before starting:** Read all sections for context
+2. **During development:** Reference specific sections when facing decisions
+3. **During code review:** Use success metrics to validate implementation
+4. **After launch:** Document your own clarifications and update this file

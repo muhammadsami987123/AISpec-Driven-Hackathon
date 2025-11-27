@@ -1,0 +1,69 @@
+openapi: 3.0.3
+info:
+  title: Physical AI Book API
+  version: 1.0.0
+  description: Minimal API contract for chatbot and ingestion services
+servers:
+  - url: https://api.example.com
+
+paths:
+  /api/health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: OK
+
+  /api/chat:
+    post:
+      summary: Submit a chat query
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                conversation_id:
+                  type: string
+                user_id:
+                  type: string
+              required: [query]
+      responses:
+        '200':
+          description: Chat response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  reply:
+                    type: string
+                  sources:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        chapter: { type: string }
+                        url: { type: string }
+
+  /api/ingest:
+    post:
+      summary: Trigger ingestion/re-index of book content
+      responses:
+        '202':
+          description: Accepted; ingestion started
+
+  /api/sources:
+    get:
+      summary: Retrieve cited sources for a response
+      parameters:
+        - name: conversation_id
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of sources

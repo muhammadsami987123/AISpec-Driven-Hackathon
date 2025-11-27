@@ -1,41 +1,54 @@
+<!--
+Sync Impact Report:
+Version change: 1.0.0 → 1.1.0
+Modified principles:
+  - PRINCIPLE_1_NAME → I. AI/Spec-Driven Book Creation
+  - PRINCIPLE_2_NAME → II. Integrated RAG Chatbot Development
+  - PRINCIPLE_3_NAME → III. Reusable Intelligence (Subagents & Skills)
+  - PRINCIPLE_4_NAME → IV. User Authentication & Personalization
+Added sections:
+  - V. Multi-language Support
+Removed sections: None
+Templates requiring updates:
+  - .specify/templates/plan-template.md ⚠ pending
+  - .specify/templates/spec-template.md ⚠ pending
+  - .specify/templates/tasks-template.md ⚠ pending
+  - .specify/templates/commands/sp.constitution.md ⚠ pending
+  - README.md ⚠ pending
+Follow-up TODOs:
+  - TODO(RATIFICATION_DATE): Original ratification date unknown.
+-->
 # AI-Native Book Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. AI/Spec-Driven Book Creation
+The project MUST be developed using Claude Code and Spec-Kit Plus, creating a Docusaurus-based book deployed to GitHub Pages. This principle ensures the use of specified tools and deployment target for the book.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Integrated RAG Chatbot Development
+The book MUST embed a Retrieval-Augmented Generation (RAG) chatbot using OpenAI Agents/ChatKit SDKs, FastAPI, Neon Serverless Postgres, and Qdrant Cloud Free Tier. It MUST answer user questions about the book content, including selected text.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Reusable Intelligence (Subagents & Skills)
+The project SHOULD leverage reusable intelligence through Claude Code Subagents and Agent Skills to enhance functionality. This encourages modular and efficient AI integration and contributes to bonus points.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. User Authentication & Personalization
+User authentication and personalization features SHOULD be implemented using Better Auth. Signup MUST include questions about user background (software, hardware) to personalize content. Logged-in users SHOULD be able to personalize chapter content.
 
-### V. Project Initialization & Structure
+### V. Multi-language Support
+The system SHOULD allow logged-in users to translate chapter content into Urdu. This promotes accessibility and expands the book's reach.
+
+### VI. Project Initialization & Structure
 Every new project or feature should start with a clear folder structure. For documentation sites, Docusaurus is the preferred tool. Project setup involves:
 1. Creating a dedicated feature folder (e.g., `specs/<feature-name>`).
 2. Initializing the Docusaurus project within this structure.
 3. Connecting the project to a GitHub repository for version control and collaboration.
 4. Committing the initial Docusaurus project to GitHub, ensuring all generated files are tracked.
 
-### VI. Observability, VII. Versioning & Breaking Changes, VIII. Simplicity
+### VII. Observability, VIII. Versioning & Breaking Changes, IX. Simplicity
 Text I/O ensures debuggability; Structured logging required; MAJOR.MINOR.BUILD format; Start simple, YAGNI principles
 
 
 ## Development Workflow
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
 
 ### SpecKit Plus Integration
 All development tasks, specifications, plans, and prompt history records (PHRs) are managed through SpecKit Plus. This ensures a structured and traceable development process.
@@ -47,13 +60,11 @@ Projects are hosted on GitHub. All code changes must be committed and pushed to 
 New documentation projects utilize Docusaurus. The setup process involves initializing the Docusaurus project with pnpm, configuring it for TypeScript, and integrating it within the main repository structure.
 
 ## Code Standards & Review
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
 
 All code must undergo a thorough review process. Automated tests and quality gates are enforced to maintain high code quality. Deployment requires approval after successful testing and review.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
 Constitution supersedes all other practices; Amendments require documentation, approval, migration plan; All PRs/reviews must verify compliance; Complexity must be justified.
 
-**Version**: 1.0.0 | **Ratified**: 2025-11-26 | **Last Amended**: 2025-11-26
+**Version**: 1.1.0 | **Ratified**: TODO(RATIFICATION_DATE): Original ratification date unknown. | **Last Amended**: 2025-11-27
