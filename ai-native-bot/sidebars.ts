@@ -19,7 +19,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'CH2 - Physical AI Foundations',
-      collapsed: false,
+      collapsed: true,
       items: [
         'chapters/chapter-2/chapter-2-index',
         'chapters/chapter-2/chapter-2-three-pillars',
@@ -30,12 +30,25 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'CH1 - Physical AI',
-      collapsed: false,
+      collapsed: true,
       items: [
         'chapters/chapter-1/chapter-1-what-is-physical-ai',
         'chapters/chapter-1/chapter-1-why-humanoids',
         'chapters/chapter-1/chapter-1-embodied-intelligence',
         'chapters/chapter-1/chapter-1-three-pillars',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'CH3 - The Digital Twin',
+      collapsed: false,
+      link: { type: 'doc', id: 'chapters/chapter-3/topic-1' },
+      items: [
+        'chapters/chapter-3/topic-1',
+        'chapters/chapter-3/topic-2',
+        'chapters/chapter-3/topic-3',
+        'chapters/chapter-3/topic-4',
+        'chapters/chapter-3/topic-5',
       ],
     },
   ],
