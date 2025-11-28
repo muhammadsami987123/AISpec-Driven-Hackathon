@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
+  title: 'The AI-Native Guide to Physical AI & Humanoid Robotics',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -75,7 +75,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'The AI-Native Guide to Physical AI & Humanoid Robotics',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -85,7 +85,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Book',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -102,7 +102,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Book',
               to: '/docs/intro',
             },
           ],
@@ -137,8 +137,25 @@ const config: Config = {
             },
           ],
         },
+        {
+          title: 'Social',
+          items: [
+            {
+              label: 'Twitter',
+              href: '#',
+            },
+            {
+              label: 'LinkedIn',
+              href: '#',
+            },
+            {
+              label: 'GitHub',
+              href: '#',
+            },
+          ],
+        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built by Muhammad Sami using AI Native with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
