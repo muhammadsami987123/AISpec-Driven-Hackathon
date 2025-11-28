@@ -18,17 +18,6 @@ const sidebars: SidebarsConfig = {
     'introduction',
     {
       type: 'category',
-      label: 'CH2 - Physical AI Foundations',
-      collapsed: true,
-      items: [
-        'chapters/chapter-2/chapter-2-index',
-        'chapters/chapter-2/chapter-2-three-pillars',
-        'chapters/chapter-2/chapter-2-pda-loop',
-        'chapters/chapter-2/chapter-2-tools-overview',
-      ],
-    },
-    {
-      type: 'category',
       label: 'CH1 - Physical AI',
       collapsed: true,
       items: [
@@ -36,6 +25,17 @@ const sidebars: SidebarsConfig = {
         'chapters/chapter-1/chapter-1-why-humanoids',
         'chapters/chapter-1/chapter-1-embodied-intelligence',
         'chapters/chapter-1/chapter-1-three-pillars',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'CH2 - Physical AI Foundations',
+      collapsed: true,
+      items: [
+        'chapters/chapter-2/chapter-2-index',
+        'chapters/chapter-2/chapter-2-three-pillars',
+        'chapters/chapter-2/chapter-2-pda-loop',
+        'chapters/chapter-2/chapter-2-tools-overview',
       ],
     },
     {

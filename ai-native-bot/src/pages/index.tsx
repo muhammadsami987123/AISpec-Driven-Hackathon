@@ -11,12 +11,6 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  useEffect(() => {
-    // Redirect readers to the Introduction doc as the default landing page
-    if (typeof window !== 'undefined') {
-      window.location.replace('/docs/introduction');
-    }
-  }, []);
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
