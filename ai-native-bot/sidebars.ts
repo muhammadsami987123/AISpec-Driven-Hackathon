@@ -18,6 +18,17 @@ const sidebars: SidebarsConfig = {
     'introduction',
     {
       type: 'category',
+      label: 'CH2 - Physical AI Foundations',
+      collapsed: false,
+      items: [
+        'chapters/chapter-2/chapter-2-index',
+        'chapters/chapter-2/chapter-2-three-pillars',
+        'chapters/chapter-2/chapter-2-pda-loop',
+        'chapters/chapter-2/chapter-2-tools-overview',
+      ],
+    },
+    {
+      type: 'category',
       label: 'CH1 - Physical AI',
       collapsed: false,
       items: [
