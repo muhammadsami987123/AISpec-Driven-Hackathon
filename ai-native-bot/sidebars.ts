@@ -19,7 +19,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'CH2 - Physical AI Foundations',
-      collapsed: false,
+      collapsed: true,
       items: [
         'chapters/chapter-2/chapter-2-index',
         'chapters/chapter-2/chapter-2-three-pillars',
@@ -30,7 +30,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'CH1 - Physical AI',
-      collapsed: false,
+      collapsed: true,
       items: [
         'chapters/chapter-1/chapter-1-what-is-physical-ai',
         'chapters/chapter-1/chapter-1-why-humanoids',
