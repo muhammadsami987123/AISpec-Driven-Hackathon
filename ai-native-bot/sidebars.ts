@@ -38,6 +38,19 @@ const sidebars: SidebarsConfig = {
         'chapters/chapter-1/chapter-1-three-pillars',
       ],
     },
+    {
+      type: 'category',
+      label: 'CH3 - The Digital Twin',
+      collapsed: false,
+      link: { type: 'doc', id: 'chapters/chapter-3/topic-1' },
+      items: [
+        'chapters/chapter-3/topic-1',
+        'chapters/chapter-3/topic-2',
+        'chapters/chapter-3/topic-3',
+        'chapters/chapter-3/topic-4',
+        'chapters/chapter-3/topic-5',
+      ],
+    },
   ],
 
   // But you can create a sidebar manually
