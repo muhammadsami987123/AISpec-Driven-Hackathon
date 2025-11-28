@@ -41,7 +41,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'CH3 - The Digital Twin',
-      collapsed: false,
+      collapsed: true,
       link: { type: 'doc', id: 'chapters/chapter-3/topic-1' },
       items: [
         'chapters/chapter-3/topic-1',
@@ -49,6 +49,20 @@ const sidebars: SidebarsConfig = {
         'chapters/chapter-3/topic-3',
         'chapters/chapter-3/topic-4',
         'chapters/chapter-3/topic-5',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'CH4 - Ethical AI & Responsible Design',
+      collapsed: true,
+      link: { type: 'doc', id: 'chapters/chapter-4/index' },
+      items: [
+        'chapters/chapter-4/index',
+        'chapters/chapter-4/foundational-principles',
+        'chapters/chapter-4/bias-mitigation',
+        'chapters/chapter-4/transparency-xai',
+        'chapters/chapter-4/privacy-security',
+        'chapters/chapter-4/governance-oversight',
       ],
     },
   ],
